@@ -1,0 +1,75 @@
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    border-bottom: 2px solid #4A90E2;
+    color: #4A90E2;
+    padding: 20px;
+    text-align: center;
+}
+
+.center-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label, p {
+    font-size: 16px;
+}
+
+.error, .emphsis {
+    color: #e74c3c;
+}
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #4A90E2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .button:hover {
+        background-color: #357ABD;
+    }
+
+.input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+    .input:hover, .input:focus {
+        border-color: #4A90E2;
+    }
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .table th, .table td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    .table th {
+        background-color: #f5f5f5;
+    }
+
+    .table tr:hover td {
+        background-color: #eef2f7;
+    }
